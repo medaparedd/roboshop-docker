@@ -8,10 +8,7 @@ services:
   mongodb:
     image: mongo:v1
     container_name: mongodb
-    volumes:
-    - source: mongodb
-      target: /data/db
-      type: volume
+    
     # networks:
     # - roboshop
 
